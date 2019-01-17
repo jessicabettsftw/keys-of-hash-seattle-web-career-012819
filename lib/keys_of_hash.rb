@@ -4,6 +4,9 @@ class Hash
     args.each do |data|
       puts "#{data}"
     end
+    array.each do |items|
+      puts items
+    end
     return result
   end
 end
