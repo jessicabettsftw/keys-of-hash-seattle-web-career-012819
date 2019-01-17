@@ -3,6 +3,7 @@ class Hash
     result = []
     *args.each do |data|
       puts "#{data} and #{value}"
+    end
     puts value
     return result
   end
