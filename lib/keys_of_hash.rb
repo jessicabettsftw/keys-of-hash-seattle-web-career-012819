@@ -5,9 +5,10 @@ class Hash
       puts "#{data}"
       self.each do |key,value|
         puts "#{key} and #{value}"
-      if 
-    end
-      result.push(self.key(data))
+        if value == data
+          result.push(key)
+        end
+      end
     end
     
     
