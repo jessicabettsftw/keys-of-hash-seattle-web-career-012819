@@ -1,8 +1,6 @@
 class Hash
   def keys_of(value, *args)
-    args.each do |param|
-      puts param
-    end
+    puts value
     return *args
   end
 end
