@@ -4,7 +4,6 @@ class Hash
     args.each do |data|
       puts "#{data}"
       self.each do |key,value|
-        puts "#{key} and #{value}"
         if value == data
           result.push(key)
         end
