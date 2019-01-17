@@ -1,6 +1,6 @@
 class Hash
   def keys_of(value)
     puts value
-    return []
+    return this.key(value)
   end
 end
