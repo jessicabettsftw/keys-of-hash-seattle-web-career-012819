@@ -3,7 +3,7 @@ class Hash
     result = []
     args.each do |data|
       puts "#{data}"
-      puts self.key(data)
+      result.push(self.key(data))
     end
     return result
   end
