@@ -1,6 +1,6 @@
 class Hash
-  def keys_of(value, array)
+  def keys_of(value)
     puts value
-    return args
+    return []
   end
 end
